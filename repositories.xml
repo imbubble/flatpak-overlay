@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE repositories SYSTEM "/dtd/repositories.dtd">
-<repositories xmlns="" version="1.0">
+<!DOCTYPE repositories SYSTEM "https://www.gentoo.org/dtd/repositories.dtd">
+<repositories version="1.0">
   <repo priority="50" quality="experimental" status="unofficial">
-    <name>flatpak-overlay</name>
+    <name><![CDATA[flatpak-overlay]]></name>
     <description lang="en"><![CDATA[Unofficial portage overlay for Gentoo Linux providing ebuilds for the Flatpak application distribution system.]]></description>
     <homepage>https://github.com/fosero/flatpak-overlay</homepage>
     <owner type="person">
